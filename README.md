@@ -1,5 +1,5 @@
-# Substring Execution
-Substring execution is a method of execution where the command is put together using a list of characters.
+# Token Execution
+Token execution is a method of execution where the command is put together using a list of characters.
 
 ## Usage
 ```
