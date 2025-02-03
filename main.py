@@ -26,7 +26,6 @@ random.shuffle(needed_chars)
 needed_chars = "".join(needed_chars)
 needed_index = ""
 for c in target:
-    print(c)
     needed_index += str(needed_chars.index(c)) + " "
 
 final_command = f'cmd /V /C "set unique={needed_chars}&&FOR; %A IN ({needed_index}) DO set final=!final!!unique:~%A,1!&& CALL %final:~-{target_len}%"'
